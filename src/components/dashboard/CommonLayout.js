@@ -7,8 +7,8 @@ import HeaderTop from "./HeaderTop";
 const CommonLayout = ({ children }) => {
   return (
     <>
-      <div className="dashboard-container">
-        <div className="common-logo-menu">
+      <div className={styles.dashboard_container}>
+        <div className={styles.common_logo_menu}>
           <a href="#">
             {/* <img /> */}
             <Image
@@ -22,9 +22,9 @@ const CommonLayout = ({ children }) => {
 
           <Navigation />
         </div>
-        <div className="main-deshboard-content">
+        <div className={styles.main_deshboard_content}>
           <HeaderTop />
-          <div className="dashboard-body">{children}</div>
+          <div className={styles.dashboard_body}>{children}</div>
         </div>
       </div>
     </>

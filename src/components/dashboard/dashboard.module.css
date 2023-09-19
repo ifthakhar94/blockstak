@@ -1,0 +1,130 @@
+/* Common Layout Style  */
+.dashboard_container {
+  display: flex;
+}
+
+.common_logo_menu {
+  padding: 50px;
+  border: 1px solid rgba(192, 197, 203, 0.37);
+  height: 100vh;
+}
+.main_deshboard_content {
+  width: 100%;
+}
+.dashboard_body {
+  background-color: #f0f8ff;
+  min-height: 100vh;
+  padding: 28px 34px 36px 33px;
+}
+
+/* Side Navigation CSS Style */
+nav.side_nav {
+  margin-top: 78px;
+}
+
+nav.side_nav ul li {
+  border-radius: 8.834px;
+  margin-bottom: 35px;
+  padding: 0px 28px;
+}
+
+nav.side_nav ul li.active {
+  background: #d5e6fb;
+  padding: 10px 28px;
+}
+nav.side_nav ul li a {
+  display: flex;
+  align-items: center;
+}
+
+nav.side_nav ul li a span {
+  margin-left: 10px;
+  color: #000;
+  font-size: 17.588px;
+  font-weight: 500;
+}
+
+li.nav_setting {
+  padding-bottom: 50px !important;
+  border-bottom: 1.5px solid rgba(192, 197, 203, 0.37);
+  margin-bottom: 50px !important;
+}
+
+/* Header Top Css Style */
+.header_top {
+  height: 98px;
+  display: flex;
+  /* width: 100%; */
+  padding: 0 37px 0 39px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-deshboard-content {
+  width: 100%;
+}
+
+.header_search input {
+  border-radius: 57px;
+  border: 1.3px solid rgba(196, 202, 205, 0.4);
+  background: #fff;
+  width: 626px;
+  height: 50px;
+  padding-left: 40px;
+  box-sizing: border-box;
+}
+.header_search input:focus {
+  outline: none;
+}
+.header_search {
+  position: relative;
+}
+
+.header_search svg {
+  position: absolute;
+  right: 28px;
+  top: 16px;
+  cursor: pointer;
+}
+
+.user_profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile_data {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  background: #f2f8ff;
+  width: 256px;
+  height: 59px;
+  border-radius: 12px;
+  box-sizing: border-box;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.user_info h4 {
+  color: #1f1f1f;
+  font-size: 13.468px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.user_info p {
+  color: #5e6e78;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 6px;
+}
+
+.user_info {
+  margin-left: 10px;
+}
+
+.profile_data svg {
+  margin-left: 40px;
+}
