@@ -128,3 +128,140 @@ li.nav_setting {
 .profile_data svg {
   margin-left: 40px;
 }
+
+/* Dashboard Card Styles  */
+.dashboard_cards {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 25px;
+}
+
+.dashboard_cards .single_card {
+  background: #fff;
+  border-radius: 12px;
+  box-sizing: border-box;
+}
+
+.card_1 .card_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.single_card {
+  padding: 23px 20px 20px 23px;
+}
+
+.single_card .card_icon {
+  width: 43px;
+  height: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+}
+
+.card_1 .card_icon {
+  background: #d5e6fb;
+}
+
+.card_1 h4 {
+  /* padding-left: 5px; */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  color: #000;
+  /* padding-right: 5px; */
+  margin: 0 !important;
+}
+
+.card_1 h2 {
+  color: #000;
+  font-size: 30px !important;
+  font-weight: 600;
+}
+
+.card_bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
+p.card_bottom_title {
+  color: #626d7d;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+p.card_bottom_balance {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.card_1 p.card_bottom_balance {
+  color: #219653;
+}
+
+p.card_bottom_percent {
+  padding: 0px 8px;
+  border-radius: 60px;
+  background: rgba(33, 150, 83, 0.2);
+  color: #219653;
+  font-size: 11px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+/* .card_2 {
+  background: url("./../../assets/images/Card_background.png") !important;
+  background-size: contain;
+  background-position: center center;
+} */
+.single_card .card_title {
+  display: flex;
+  align-items: center;
+}
+
+.card_2 .card_icon {
+  background: rgba(255, 156, 7, 0.2);
+}
+
+.card_3 .card_icon {
+  background: rgba(77, 33, 255, 0.2);
+}
+
+.card_4 .card_icon {
+  background: rgba(255, 210, 210, 1);
+}
+
+.single_card h4 {
+  margin-left: 12px;
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+  /* 176.716% */
+  margin-bottom: 0;
+}
+
+.single_card .card_title p {
+  margin-left: 12px;
+  color: #626d7d;
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.single_card h2 {
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.candlestick_chart {
+  margin: 25px 0;
+  display: flex;
+}
